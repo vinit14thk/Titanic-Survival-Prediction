@@ -2,15 +2,15 @@ Titanic Survival Prediction
 
 Overview
 
-This project uses machine learning to predict whether a passenger survived the Titanic disaster. It uses the Titanic passenger dataset and a Logistic Regression model.
+This project uses machine learning to predict whether a passenger survived the Titanic disaster. It includes data cleaning, exploratory visualization, model training, and evaluation using Python.
 
 Objectives
 
-- Clean and preprocess the dataset.
+- Explore and clean the Titanic dataset.
 - Handle missing values.
 - Encode categorical variables.
 - Visualize passenger survival data.
-- Train and evaluate a machine-learning model.
+- Train and compare classification models.
 
 Technologies Used
 
@@ -20,11 +20,15 @@ Technologies Used
 - Scikit-learn
 - Jupyter Notebook
 
-Machine Learning Model
+Models and Results
 
-Algorithm: Logistic Regression
+The dataset was split into training and testing sets using an 80/20 split.
 
-Test Accuracy: 80.45%
+Model| Test Accuracy
+Logistic Regression| 80.45%
+Random Forest| 82.12%
+
+Random Forest achieved higher accuracy on this test split. Additional validation would be needed to determine whether it performs consistently better.
 
 Project Workflow
 
@@ -33,20 +37,24 @@ Project Workflow
 3. Categorical encoding
 4. Data visualization
 5. Training and testing split
-6. Model training and evaluation
+6. Logistic Regression training and evaluation
+7. Random Forest training and evaluation
+8. Model comparison
 
-Files
+Project Files
 
-- "titan_project.ipynb" — project notebook
+- "titan_project.ipynb" — Jupyter Notebook containing the code and analysis
 - "cleaned_titanic.csv" — cleaned dataset
-- "titanic_survival_model.pkl" — trained model
+- "titanic_survival_model.pkl" — trained Logistic Regression model
+- "titanic_random_forest_model.pkl" — trained Random Forest model
 
 Future Improvements
 
-- Compare Logistic Regression with other classification algorithms.
-- Analyze feature importance and model errors.
-- Improve evaluation using cross-validation.
+- Evaluate models using cross-validation.
+- Tune model hyperparameters.
+- Compare precision, recall, and F1-score.
+- Explore additional visualizations and feature importance.
 
 Disclaimer
 
-This is an educational machine-learning project. Its predictions are not guaranteed to be accurate for individual passengers.
+This project is for educational purposes. Model predictions are not guaranteed to be accurate for individual passengers.
