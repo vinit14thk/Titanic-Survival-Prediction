@@ -24,9 +24,9 @@ Models and Results
 
 The dataset was split into training and testing sets using an 80/20 split.
 
-Model| Test Accuracy
-Logistic Regression| 80.45%
-Random Forest| 82.12%
+Model                Test Accuracy
+Logistic Regression     80.45%
+Random Forest           82.12%
 
 Random Forest achieved higher accuracy on this test split. Additional validation would be needed to determine whether it performs consistently better.
 
