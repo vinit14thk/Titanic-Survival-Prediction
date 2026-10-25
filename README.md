@@ -4,6 +4,8 @@ Overview
 
 This project uses machine learning to predict whether a passenger survived the Titanic disaster. It includes data cleaning, exploratory visualization, model training, and evaluation using Python.
 
+**[🚀 Try the Live App](https://titanic-survival-predictor-app-v.streamlit.app/)**
+
 Objectives
 
 - Explore and clean the Titanic dataset.
